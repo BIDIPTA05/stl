@@ -1,0 +1,86 @@
+ #include<iostream>
+ #include<vector>
+ using namespace std;
+ int main(){
+ 
+ vector <int> p(5);
+ 
+//auto is for auto detection of the data type  --- a belong to p. 
+for(auto a: p)
+    cout<< a << " ";
+
+ return 0;
+ }
+ 
+ 
+ 
+ ***************************************
+ 
+ Displaying vectors---
+ 
+ //displaY
+for (int i = 0; i < n;i++){
+    cout << p[i] << " ";
+}
+
+ 
+ ***************************************
+ 
+ 
+ vector header-
+ #include<vector>
+ 
+ 
+ 
+  ***************************************
+  
+  
+  
+ //initialization
+ 
+ vector<datatype> vectorname;
+ vector <int> p;
+
+
+
+ ***************************************
+ 
+ //initialise
+vector <int> p(vector size,all the values are initialize with this);
+vector <int> p(5,1);
+output-> 1 1 1 1 1 
+
+
+
+***************************************
+ 
+ 
+ 
+//adding elements
+p.push_back(5);
+p.push_back(10);
+added two elemets such as 5 and 10 to the vector.
+
+
+
+ *****************************************************************************************
+ 
+ 
+//removes an element from the last of the vector as-->
+p.pop_back();
+ 
+ 
+ *******************************************
+ 
+ 
+ //check if a vector is empty???
+ 
+ p.empty();   or,
+ p.size();
+ 
+ *******************************************
+ 
+ 
+ //prinitng the last element of the vector
+ 
+ p.back();
