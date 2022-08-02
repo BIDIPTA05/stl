@@ -1,0 +1,22 @@
+#include<iostream>
+#include<set>
+using namespace std;
+int main(){
+
+    set<int> a;
+    a.insert(5);
+    a.insert(1);
+    a.insert(20);
+    a.insert(3);
+    a.insert(15);
+    a.insert(2);
+    a.insert(10);
+    
+    // traverse the set
+
+    for(auto x : a){
+        cout << x << " ";
+    }
+
+    return 0;
+}
