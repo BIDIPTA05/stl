@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+    int arr[5] = {2, 3, 4, 5, 6};
+
+    int adobe[5];
+    int n = sizeof(arr)/sizeof(int);
+
+    cout <<"The total number of elements are = "<< n<<endl;
+
+    //coping elements
+    for (int i = 0; i < n;i++){
+        adobe[i] = arr[i];
+    }
+
+    //output itens
+    for (int i = 0; i < n;i++){
+        cout << adobe[i] << " ";
+    }
+
+        return 0;
+}
