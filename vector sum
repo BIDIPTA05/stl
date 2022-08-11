@@ -1,0 +1,7 @@
+int sum =0;
+for (int i =0;i< nums.size();i++){
+sums+=nums[i];
+}
+
+
+//expected sum = (n*(n+1))/2
