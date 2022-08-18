@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+#include<map>
+using namespace std;
+int main(){
+
+    map<string, int> college;
+//insering by making pairs
+    pair<string, int> p("Bidipta", 1);
+    pair<string, int> q("Saikia", 2);
+    college.insert(p);
+    college.insert(q);
+    
+    for(auto ans : college){
+        cout << ans.first << " "<<ans.second<<endl;
+    }
+
+    return 0;
+}
