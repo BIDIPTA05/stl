@@ -2,7 +2,7 @@
 #include<set>
 using namespace std;
 int main(){
-
+//set store unique elements and cancel out the duplicate elements and prints the elments in sorted order
     set<int> a;
     a.insert(5);
     a.insert(1);
@@ -12,11 +12,19 @@ int main(){
     a.insert(2);
     a.insert(10);
     
-    // traverse the set
+    // traverse the set - using for each
 
     for(auto x : a){
         cout << x << " ";
     }
+    
+    //traverse the set - using for loop
+    
+    for(int  i = a.begin(); i != a.end() ; i++){
+    cout<< *i<<" ";
+    
+    }
+    
 
     return 0;
 }
