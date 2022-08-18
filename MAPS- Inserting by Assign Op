@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+#include<map>
+using namespace std;
+int main(){
+
+    map<string, int> college;
+//insering by Assignment op
+    college["Bidipta"] = 1;
+    college["Saikia"] = 2;
+    college["Audi"] = 5;
+
+    for(auto ans : college){
+        cout << ans.first << " "<<ans.second<<endl;
+    }
+
+    return 0;
+}
